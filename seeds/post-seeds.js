@@ -1,6 +1,6 @@
 const { Post } = require('../models');
 
-const postdata = [
+const postData = [
     {
         title: 'Pizza Hut voted best pizza in the city!',
         content: 'History was made yet again after residents tried out the latest deep dish pizza from Pizza Hut and voted it the "tastiest thing ever"!',
@@ -23,6 +23,6 @@ const postdata = [
     }
 ];
 
-const seedPosts = () => Post.bulkCreate(postdata);
+const seedPosts = () => Post.bulkCreate(postData);
 
 module.exports = seedPosts;
