@@ -7,9 +7,9 @@ const postData = [
         user_id: 4
     },
     {
-        title: 'Benefits of Meditation',
-        content: 'There are many benefits to meditating including X, Y, and Z.',
-        user_id: 1
+        title: 'Advancements in Turtle Tanks',
+        content: 'The new Turtle Tank will have state of the art weapons defense systems and radar detection capabilities',
+        user_id: 2
     },
     {
         title: 'Aliens attacking through a portal?',

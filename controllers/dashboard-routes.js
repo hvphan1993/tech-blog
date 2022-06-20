@@ -7,7 +7,7 @@ router.get('/', withAuth, (req, res) => {
     Post.findAll({
         where: {
             // use the ID from the session
-            user_id: req.session.id
+            user_id: req.session.user_id
         },
         attributes: [
             'id',
@@ -40,6 +40,8 @@ router.get('/', withAuth, (req, res) => {
         res.status(500).json(err);
     });
 });
+
+
 
 router.get('/', withAuth, (req, res) => {
     const post = dbPostData.get({ plain: true });
