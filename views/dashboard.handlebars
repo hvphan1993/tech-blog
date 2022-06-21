@@ -4,10 +4,10 @@
   <form class="new-post-form">
     <div>
       <label for="post-title">Title</label>
-      <input type="text" id="post-title" name="post-title" />
+      <input type="text" id="post-title" name="post-title" class="form-input" />
     </div>
     <div>
-      <input id="content" name="content" />
+      <input id="content" name="content" class="form-input" />
     </div>
     <button type="submit" class="btn">Create</button>
   </form>
@@ -19,8 +19,7 @@
     <ol>
         {{#each posts as |post|}}
         <li>
-            {{> post-info post}}
-            <a href="/dashboard/edit/{{post.id}}" class="edit-link">Edit posts</a>
+            {{> dashboard-postinfo post}}
         </li>
         {{/each}}
     </ol>

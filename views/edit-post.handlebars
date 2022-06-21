@@ -5,20 +5,23 @@
   </h2>
   <form class="edit-post-form">
     <div>
-      <input name="post-title" type="text" value="{{post.title}}" />
-      <span>({{post.content}})</span>
+      <label for="post-title" class="form-label">Title</label>
+      <input name="post-title" type="text" value="{{post.title}}" class="form-input" />
+      <label for="content" class="form-label">Content</label>
+      <input name="content" type="text" value="{{post.content}}" class="form-input" />
     </div>
     <div>
         <a href="/post/{{post.id}}">{{post.comments.length}} {{format_plural "comment" post.comments.length}}</a>
     </div>
-    <button type="submit">Save post</button>
-    <button type="button" class="delete-post-btn">Delete post</button>
+    <button type="submit" class="btn">Save post</button>
+    <button type="button" class="delete-post-btn btn">Delete Post</button>
   </form>
 </article>
 
 <form class="comment-form">
     <div>
-        <textarea name="comment-body"></textarea>
+      <label for="comment" class="form-label">Add a Comment</label>
+      <textarea name="comment-body" class="form-input"></textarea>
     </div>
 
     <div>
