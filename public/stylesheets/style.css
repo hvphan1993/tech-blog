@@ -39,6 +39,7 @@ button:hover {
 .post-list {
   margin: 0;
   padding: 0;
+  list-style-type: none;
 }
 
 textarea, input {
@@ -131,6 +132,7 @@ main {
 .edit-link {
   display: block;
   margin: -1.5% 0 2% 0;
+  color: #2c2307;
 }
 
 .comment-form {
