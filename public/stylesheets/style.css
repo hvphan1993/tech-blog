@@ -22,7 +22,7 @@ body, html {
 a {
   text-decoration: none;
   color: black;
-  font-weight: bold;
+  /* font-weight: bold; */
   transition: color .1s;
 }
 
@@ -30,8 +30,12 @@ a:hover {
   color: gold;
 }
 
+.welcome {
+  text-align: center;
+}
+
 button {
-  background-color: #225ca3;
+  background-color: tan;
   border: 0;
   padding: 1%;
   color: white;
@@ -42,7 +46,7 @@ button {
 }
 
 button:hover {
-  background-color: #3486eb;
+  background-color: orange;
 }
 
 .post-list {
