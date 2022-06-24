@@ -37,3 +37,5 @@ Running node server should run the server on localhost:3001
 Github repository: https://github.com/hvphan1993/tech-blog.git
 
 Application Link: https://hvphan1993.github.io/tech-blog/
+
+Heroku: https://gentle-falls-34654.herokuapp.com/
